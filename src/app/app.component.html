@@ -175,7 +175,97 @@
       margin-block: 1.5rem;
     }
   }
+
+  :host {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --text-color: #333;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  nav {
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 </style>
+
+<header>
+  <h1>Trabalho de Conclusão de Curso</h1>
+  <p>Tema: [Insira o tema do seu TCC]</p>
+</header>
+
+<nav>
+  <a href="#introducao">Introdução</a>
+  <a href="#objetivos">Objetivos</a>
+  <a href="#metodologia">Metodologia</a>
+  <a href="#resultados">Resultados</a>
+  <a href="#conclusao">Conclusão</a>
+</nav>
+
+<main>
+  <section id="introducao">
+    <h2>Introdução</h2>
+    <p>[Adicione aqui o texto da introdução do seu TCC]</p>
+  </section>
+
+  <section id="objetivos">
+    <h2>Objetivos</h2>
+    <p>[Adicione aqui os objetivos do seu TCC]</p>
+  </section>
+
+  <section id="metodologia">
+    <h2>Metodologia</h2>
+    <p>[Adicione aqui a metodologia do seu TCC]</p>
+  </section>
+
+  <section id="resultados">
+    <h2>Resultados</h2>
+    <p>[Adicione aqui os resultados do seu TCC]</p>
+  </section>
+
+  <section id="conclusao">
+    <h2>Conclusão</h2>
+    <p>[Adicione aqui a conclusão do seu TCC]</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 - Seu Nome</p>
+</footer>
 
 <main class="main">
   <div class="content">
